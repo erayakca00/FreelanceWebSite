@@ -1,0 +1,87 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Home\Frontend\indexpage\index2.cshtml" />
+    <Content Remove="Views\Home\Frontend\indexpage\jobs2.cshtml" />
+    <Content Remove="Views\Home\Frontend\indexpage\network2.cshtml" />
+    <Content Remove="Views\Home\Frontend\loginscreen\login2.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Views\Website Pages\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\Frontend\indexpage\index2.cshtml" />
+    <None Include="Views\Home\Frontend\indexpage\jobs2.cshtml" />
+    <None Include="Views\Home\Frontend\indexpage\network2.cshtml" />
+    <None Include="Views\Home\Frontend\loginscreen\login2.cshtml" />
+    <None Include="wwwroot\css\index.css" />
+    <None Include="wwwroot\css\login.css" />
+    <None Include="wwwroot\images\loginPageImages\bg4.jpg" />
+    <None Include="wwwroot\images\loginPageImages\logo3.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\bg4.jpg" />
+    <None Include="wwwroot\images\restOfImages\indexImages\cbu.jpg" />
+    <None Include="wwwroot\images\restOfImages\indexImages\chat.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\clap.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\comment.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\connect.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\cover-pic.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\display.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\down-arrow.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\event.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\feedback.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\google.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\group.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\hashtag.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\help.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\home.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\items.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\jobs.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\juniors.jpg" />
+    <None Include="wwwroot\images\restOfImages\indexImages\like.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\logo.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\logo3.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\logout.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\love.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\message.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\mi-logo.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\microsoft.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\mit.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\more.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\network.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\north.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\notification.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\output-onlinepngtools %281%29.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\output-onlinepngtools.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\photo.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\post-image-1.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\post-image-2.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\post-image-3.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\post-image-4.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\premium.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\recent.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\right-arrow.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\search.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\send.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\setting.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\share.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\slack.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\stanford.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\tesla.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\tesla_4x.jpg" />
+    <None Include="wwwroot\images\restOfImages\indexImages\thumbsup.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\user-1.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\user-2.png" />
+    <None Include="wwwroot\images\restOfImages\indexImages\user3.jpg" />
+    <None Include="wwwroot\images\restOfImages\indexImages\user5.jpg" />
+    <None Include="wwwroot\images\restOfImages\indexImages\video.png" />
+  </ItemGroup>
+
+</Project>

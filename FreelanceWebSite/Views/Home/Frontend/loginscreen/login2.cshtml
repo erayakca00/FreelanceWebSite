@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/30dd7417bd.js" crossorigin="anonymous"></script>
+    
+</head>
+
+<body>
+
+
+
+
+    <section>
+
+
+    <div class="login-box" >
+        <form action="">
+
+
+            <h2>İşveren Girişi</h2>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-paper-plane"></i></smpan>
+                <input type="email" required>
+                <label >Email adresi</label>
+
+            </div>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-key"></i></smpan>
+                <input type="password" required>
+                <label >Password</label>
+
+            </div>
+            <div class="remember-forgot">
+                <label ><input type="checkbox">Beni Hatırla</label>
+                <a href="#">Şifremi Unuttum</a>
+            </div>
+            <button type="submit">Giriş Yap</button>
+            <div class="register-link">
+                <p>Hesabın yok mu?<a id="etiket"  href="">Kaydol</a></p>
+            </div>
+
+
+
+        </form>
+    </div>
+   
+    
+    <div class="login-box" >
+        <form action="">
+
+
+            <h2>Freelancer Girişi</h2>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-paper-plane"></i></smpan>
+                <input type="email" required>
+                <label >Email</label>
+
+            </div>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-key"></i></smpan>
+                <input type="password" required>
+                <label >Şifre</label>
+
+            </div>
+            <div class="remember-forgot">
+                <label ><input type="checkbox">Beni Hatırla</label>
+                <a href="#">Şifremi Unuttum</a>
+            </div>
+            <button type="submit">Giriş Yap</button>
+            <div class="register-link">
+                <p> Hesabın Yok Mu?<a id="etiket2" href="">Kaydol</a></p>
+            </div>
+
+
+
+        </form>
+    </div>
+
+
+
+    <div class="sing-in-box 1" id="degisecekDiv" style="margin-right: 500px; display: none;">
+        <form action="">
+
+
+            <h2>İşveren Kayıt</h2>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-paper-plane"></i></smpan>
+                <input type="email" required>
+                <label >Email</label>
+
+            </div>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-paper-plane"></i></smpan>
+                <input type="text" required>
+                <label >Kullanıcı adı</label>
+
+            </div>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-key"></i></smpan>
+                <input type="password" required>
+                <label >Şifre</label>
+
+            </div>
+           
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-key"></i></smpan>
+                <input type="password" required>
+                <label >Şifreyi Onayla</label>
+
+            </div>
+            <div class="remember-forgot">
+                <label ><input type="checkbox">Beni Hatırla</label>
+                
+            </div>
+            <button type="submit">Kayıt Ol</button>
+            <div class="register-link">
+                <p> Zaten Bir Hesabın Var Mı?<a id="Freelancersingin" href="">Giriş</a></p>
+            </div>
+
+
+
+        </form>
+    </div>
+    <div class="sing-in-box 2" id="degisecekDiv2" style="margin-left: 500px;display: none;" >
+        <form action="">
+
+
+            <h2>Freelancer Giriş</h2>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-paper-plane"></i></smpan>
+                <input type="email" required>
+                <label >Email</label>
+
+            </div>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-paper-plane"></i></smpan>
+                <input type="text" required>
+                <label >Kullanıcı Adı</label>
+
+            </div>
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-key"></i></smpan>
+                <input type="password" required>
+                <label >Şifre</label>
+
+            </div>
+           
+            <div class="input-box">
+                <smpan class="icon"><i class="fa-solid fa-key"></i></smpan>
+                <input type="password" required>
+                <label >Şifreyi Onayla</label>
+
+            </div>
+            <div class="remember-forgot">
+                <label ><input type="checkbox">Beni Hatırla</label>
+                
+            </div>
+            <button type="submit">Kayıt Ol</button>
+            <div class="register-link">
+                <p> Zaten Bir Hesabın Var Mı?<a href="">Giriş</a></p>
+            </div>
+
+
+
+        </form>
+    </div>
+
+<script>
+    document.getElementById('etiket').addEventListener('click', function(e) {
+    e.preventDefault(); // Sayfanın yeniden yüklenmesini önlemek için
+  
+    var degisecekDiv = document.getElementById('degisecekDiv');
+  
+    // Eğer div görünürse, display özelliğini none yapar; görünmezse flex yapar.
+    degisecekDiv.style.display = (degisecekDiv.style.display === 'flex') ? 'none' : 'flex';
+  });
+  document.getElementById('etiket2').addEventListener('click', function(e) {
+    e.preventDefault(); // Sayfanın yeniden yüklenmesini önlemek için
+  
+    var degisecekDiv2 = document.getElementById('degisecekDiv2');
+  
+    // Eğer div görünürse, display özelliğini none yapar; görünmezse flex yapar.
+    degisecekDiv2.style.display = (degisecekDiv2.style.display === 'flex') ? 'none' : 'flex';
+  });
+ 
+  
+</script>
+
+</section>
+
+</body>
+
+</html>
